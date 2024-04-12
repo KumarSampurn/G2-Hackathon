@@ -17,9 +17,15 @@ Together, these components enable efficient and insightful analysis of product f
 ## Results Screenshots
 Word clouds generated from product reviews help identify the most prominent features or aspects mentioned by users, facilitating feature analysis and understanding customer sentiment towards specific product attributes. 
 
-![wordcloud](./images/wordcloud.png)
+![wordcloud](./images/Sample-Wordcloud.png)
+
+
+Streamlit Application
 ![streamlit](./images/streamlit.png)
-![streamlit2](./images/demo.gif)
+
+
+Demo
+![demo](./images/demo.gif)
 
 
 
