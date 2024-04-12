@@ -31,6 +31,10 @@ Demo
 
 ![demo](./images/demo.gif)
 
+Methodology
+
+![methodology](./images/methodology.png)
+
 
 
 ## Run Locally
