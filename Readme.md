@@ -21,10 +21,14 @@ Word clouds generated from product reviews help identify the most prominent feat
 
 
 Streamlit Application
+
+
 ![streamlit](./images/streamlit.png)
 
 
 Demo
+
+
 ![demo](./images/demo.gif)
 
 
