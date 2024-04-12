@@ -176,7 +176,7 @@ class G2ProductFeatureList():
             for i in range(len(sorted_review)):
                 feature = sorted_review[i].strip()
                 
-                if len(feature.split(" ")) > 3 or len(feature.split(" ")) < 2:
+                if len(feature.split(" ")) > 3 :
                     feature = ""
                 
                 sorted_review[i] = feature
@@ -452,7 +452,10 @@ class G2ProductFeatureList():
             self.pick_top_k_features(show=show)
             
             # Generate word cloud
-            self.get_wordcloud()    
+            self.get_wordcloud()  
+            
+            return self.all_top_features
+         
         except KeyError:
             print(f"No reviews found for the country: {country_name}")
             
@@ -488,6 +491,8 @@ class G2ProductFeatureList():
             
             # Generate word cloud
             self.get_wordcloud()    
+            
+            return self.all_top_features
         except KeyError:
             print(f"No reviews found newer than the date: {rfc3339_date}")
 
