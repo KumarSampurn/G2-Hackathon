@@ -121,7 +121,7 @@ class G2ProductFeatureList():
                   
     
     def extract_all_features(self, show = False):
-        json_file_path = "feature_dict.json"
+        json_file_path = "./src/feature_dict.json"
 
         with open(json_file_path, "r") as json_file:
             self.feature_dict = json.load(json_file)
@@ -499,7 +499,7 @@ class G2ProductFeatureList():
 
 
 if __name__ == "__main__":
-    token = "your_token_here"
-    g2 = G2ProductFeatureList(token)
+    
+    g2 = G2ProductFeatureList("G2_API_TOKEN")
     top_features = g2.run(show=True)
     print(top_features)

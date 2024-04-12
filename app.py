@@ -1,5 +1,5 @@
 import streamlit as st
-from g2Features import G2ProductFeatureList
+from G2lib import G2ProductFeatureList
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from dotenv import load_dotenv
